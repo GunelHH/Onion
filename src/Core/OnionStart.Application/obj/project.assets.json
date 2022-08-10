@@ -194,6 +194,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "OnionStart.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/OnionStart.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionStart.Domain.dll": {}
+        }
       }
     }
   },
@@ -520,11 +533,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OnionStart.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OnionStart.Domain/OnionStart.Domain.csproj",
+      "msbuildProject": "../OnionStart.Domain/OnionStart.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore >= 6.0.7"
+      "Microsoft.EntityFrameworkCore >= 6.0.7",
+      "OnionStart.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -551,7 +570,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/gunelhesenova/Projects/OnionStart/src/Core/OnionStart.Domain/OnionStart.Domain.csproj": {
+              "projectPath": "/Users/gunelhesenova/Projects/OnionStart/src/Core/OnionStart.Domain/OnionStart.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

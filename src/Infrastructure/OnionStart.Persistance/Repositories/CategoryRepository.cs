@@ -1,11 +1,9 @@
 ﻿using System;
 namespace OnionStart.Persistance.Repositories
 {
-    public class CategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
-        public CategoryRepository()
-        {
-        }
+        
     }
 }
 

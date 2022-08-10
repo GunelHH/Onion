@@ -1,11 +1,8 @@
 ﻿using System;
 namespace OnionStart.Persistance.Repositories
 {
-    public class GenericRepository
+    public class GenericRepository<T>:IGenericRepository<T>
     {
-        public GenericRepository()
-        {
-        }
     }
 }
 
