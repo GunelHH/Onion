@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tgAH0aW0eRHhTm2kfcqQdVTWxsvX9EI33Wfw8z808tbZKEaIqfvZT4MrzmtdF0jRW2Vqyg3uX5Le/WgwUM0Jzw==",
+  "success": true,
+  "projectFilePath": "/Users/gunelhesenova/Projects/OnionStart/src/WebAPI/OnionStart.WebApi/OnionStart.WebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/gunelhesenova/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/gunelhesenova/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/gunelhesenova/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/gunelhesenova/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/gunelhesenova/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/gunelhesenova/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

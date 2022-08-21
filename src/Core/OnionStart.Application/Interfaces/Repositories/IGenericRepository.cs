@@ -1,4 +1,6 @@
 ﻿using System;
+using OnionStart.Domain.Entities.Base;
+
 namespace OnionStart.Application.Interfaces.Repositories
 {
     public interface IGenericRepository<T> where T:BaseEntity
@@ -7,9 +9,9 @@ namespace OnionStart.Application.Interfaces.Repositories
 
         Task<T> GetById(int id);
 
-        void AddAsync(T entity);
+        Task<T> AddAsync(T entity);
 
-        void DeleteAsync(int id);
+        Task DeleteAsync(T entity);
     }
 }
 
